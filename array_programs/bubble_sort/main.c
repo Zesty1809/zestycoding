@@ -3,8 +3,9 @@ int main(){
     int a[50],n,i,j,t;
     printf("Enter the no of elements in the list : ");
     scanf("%d",&n);
-    printf("Enter the elements : ");
+    printf("Enter the elements : \n");
     for(i=0;i<n;i++){
+        printf("a[%d] = ",i);
         scanf("%d",&a[i]);
     }
     printf("Before Bubble sorting the elements are : ");
